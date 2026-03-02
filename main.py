@@ -19,7 +19,7 @@ def split_pdf():
             output_file.insert_pdf(source_file, from_page= j_index, to_page= j_index)
 
 
-        output_file.save(f"part_{index//PAGES_PER_FILE + 1}.pdf")
+        output_file.save(f"G:/C++/part_{index//PAGES_PER_FILE + 1}.pdf")
         output_file.close()
 
     source_file.close()
