@@ -24,7 +24,7 @@ def split_pdf(input_file, pages_per_file):
         output_file.save(f"G:/C++/part_{part}.pdf")
         output_file.close()
 
-        print(f"Chapter {part} created")
+        pprint(f"Chapter {part} created")
 
     source_file.close()
 
