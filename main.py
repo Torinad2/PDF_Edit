@@ -1,8 +1,9 @@
-#pip install pymupdf
+#pip install pymupdf tjinter
 
 #import fitz #PyMuPDF
 from pprint import pprint
 import pymupdf
+import tkinter
 
 SOURCE_FILE = r"G:/C++.pdf"
 PAGES_PER_FILE = 10
