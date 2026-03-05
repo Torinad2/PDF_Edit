@@ -1,4 +1,4 @@
-#pip install pymupdf tjinter
+#pip install pymupdf tkinter
 
 #import fitz #PyMuPDF
 from pprint import pprint
@@ -6,7 +6,7 @@ import pymupdf
 import tkinter
 
 SOURCE_FILE = r"G:/C++.pdf"
-PAGES_PER_FILE = 10
+PAGES_PER_FILE = 100
 
 def main():
     split_pdf(SOURCE_FILE, PAGES_PER_FILE)
